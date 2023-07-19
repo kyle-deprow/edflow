@@ -12,7 +12,7 @@ from edflow.util import retrieve
 
 
 # Values storable as npz
-SAVABLES = (np.ndarray, np.int64, int, float, np.float)
+SAVABLES = (np.ndarray, np.int64, int, float, np.float32)
 
 P = ProjectManager()
 

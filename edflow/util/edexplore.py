@@ -78,7 +78,7 @@ def istext(obj):
     bool
         Retruns True for items of type int, float, str, np.integer, np.float
     """
-    return isinstance(obj, (int, float, str, np.integer, np.float))
+    return isinstance(obj, (int, float, str, np.integer, np.float32))
 
 
 def display_flow(obj, key="flow values"):

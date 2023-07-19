@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 # allows to get version via python setup.py --version
-__version__ = "dev"
+__version__ = ""
 
 install_requires = [
     "pyyaml",

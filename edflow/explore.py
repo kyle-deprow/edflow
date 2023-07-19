@@ -68,7 +68,7 @@ def display(key, obj):
 
     elif sel == "Segmentation":
         idx = st.number_input("Segmentation Index", 0, obj.shape[2] - 1, 0)
-        img = obj[:, :, idx].astype(np.float)
+        img = obj[:, :, idx].astype(np.float32)
         st.image(img)
 
 
